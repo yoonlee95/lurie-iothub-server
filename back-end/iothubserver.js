@@ -12,7 +12,7 @@ var io = require('socket.io')(http);
 var connectionString = 'HostName=nicutest2.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=RGpENvmqHqGZnBDT5LUsu+w5LYObC05eByMhM6a3cto=';
 
 // Connecting String for Lurie IOT Hub - free tier
-var connectionString = 'HostName=IoTTestLuis.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=jBbQVxZCzxfxKEF3WQpFdYwsfO8wkBviDQPKqauE2zg=';
+// var connectionString = 'HostName=IoTTestLuis.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=jBbQVxZCzxfxKEF3WQpFdYwsfO8wkBviDQPKqauE2zg=';
 
 // Error Handler for IOT Hub related messages
 var iothubErrorHandler = function (err) {
