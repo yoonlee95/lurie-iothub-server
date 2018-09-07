@@ -19,13 +19,13 @@ var iothubErrorHandler = function (err) {
   console.log(err.message);
 };
 
-//
+// Handle Events from IOT Hub
 var iothubEventHandler = function (message) {
   // Print incoming message (deubgging purpose)
   // console.log(message)
   
   // Push body of the message
-  io.emit('nicudata', message.body);
+  io.emit('nicuData', message.body);
 };
 
 // Connect to the partitions on the IoT Hub's Event Hubs-compatible endpoint.

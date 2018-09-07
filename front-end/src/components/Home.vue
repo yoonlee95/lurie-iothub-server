@@ -88,7 +88,7 @@
                     width: "500",
                     height: "180",
                     renderer: "line",
-                    min: 228,
+                    min: 0,
                     max: 16000,
                     series: new Rickshaw.Series.FixedDuration([{
                         name: 'v1',
@@ -132,7 +132,7 @@
                 });
 
                 /* Update chart after every #renderEveryNth message */
-                socket.on('voltageData', (message) => {
+                socket.on('nicuData', (message) => {
                     // console.log(message)
                     for (var i = 0; i < 5; i++) {
                         let tmpData = {
