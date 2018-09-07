@@ -39,7 +39,7 @@ EventHubClient.createFromIotHubConnectionString(connectionString).then(function 
   return ids.map(function (id) {
     return ehClient.receive(id, iothubEventHandler, iothubErrorHandler, { eventPosition: EventPosition.fromEnqueuedTime(Date.now()) });
   });
-}).catch(printError);
+}).catch(iothubErrorHandler);
 
 
 // Setup Socket event Handlers 

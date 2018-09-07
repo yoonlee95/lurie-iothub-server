@@ -59,7 +59,6 @@
         mounted() {
             this.initChart();
             this.openSocketListeners();
-            // setInterval(this.thistest, 100);
         },
         watch: {
             renderEveryNth: function() {

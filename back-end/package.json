@@ -4,7 +4,8 @@
   "description": "Back-end application in the IoT Hub quickstart device-to-cloud sample",
   "main": "ReadDeviceToCloudMessages.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node iothubserver.js"
   },
   "repository": {
     "type": "git",

@@ -5,4 +5,4 @@ This code is a demo project to demonstate the capability of streaming data in re
 `npm install`
 
 ## How to run
-`node iothubserver.js`
+`npm start`
